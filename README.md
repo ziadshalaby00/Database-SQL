@@ -1,8 +1,3 @@
-  
-
----
-
-  
 
 هذا المستند يحتوي على ترتيب الملفات والمحتوى الخاص بتعلم **Database&SQL** خطوة بخطوة.
 
@@ -14,55 +9,56 @@
 
 ## المحتويات
 
+
 ### Database theory
 
 
 
-- 1. **Introduction to Databases**
+1. **Introduction to Databases**
 
-- Definition of a database
+    - Definition of a database
+  
+    - Why we use databases
 
-- Why we use databases
+2. **Databases vs Spreadsheets vs File Storage**
 
-- 2. **Databases vs Spreadsheets vs File Storage**
+    - Advantages of databases
+  
+    - Limitations of flat files and Excel
 
-- Advantages of databases
+3. **Types of Databases**
+  
+    - Relational databases (RDBMS): SQL Server, MySQL, PostgreSQL
+  
+    - Brief intro to non-relational (NoSQL) databases
 
-- Limitations of flat files and Excel
+4. **Database Concepts**
 
-- 3. **Types of Databases**
+    - Tables, rows, columns
+  
+    - Records vs fields
 
-- Relational databases (RDBMS): SQL Server, MySQL, PostgreSQL
+5. **Keys and Relationships**
 
-- Brief intro to non-relational (NoSQL) databases
+    - What is a Primary Key?
+  
+    - What is a Foreign Key?
+  
+    - One-to-One relationship
+  
+    - One-to-Many relationship
+  
+    - Many-to-Many relationship
 
-- 4. **Database Concepts**
+6. **Database Design Basics**
 
-- Tables, rows, columns
+    - What is a Schema?
+  
+    - Basic entity-relationship design (ERD overview)
 
-- Records vs fields
+7. **Setting Up the Environment**
 
-- 5. **Keys and Relationships**
-
-- What is a Primary Key?
-
-- What is a Foreign Key?
-
-- One-to-One relationship
-
-- One-to-Many relationship
-
-- Many-to-Many relationship
-
-- 6. **Database Design Basics**
-
-- What is a Schema?
-
-- Basic entity-relationship design (ERD overview)
-
-- 7. **Setting Up the Environment**
-
-- Installing PostgreSQL
+    - Installing PostgreSQL
 
   
 
@@ -70,14 +66,14 @@
 
 ### SQL Basics
 
-- **Getting Started with SQL**
+1. **Getting Started with SQL**
     - What is SQL?  
         
     - SQL syntax and case sensitivity  
         
     - SQL statement structure (commands end with `;`)  
         
-- **SQL Statements (DDL & DML)**
+2. **SQL Statements (DDL & DML)**
     - CREATE TABLE  
         
     - ALTER TABLE  
@@ -92,7 +88,7 @@
         
     - SELECT  
         
-- **Data Types**
+3. **Data Types**
     - INT  
         
     - VARCHAR  
@@ -109,7 +105,7 @@
         
     - DECIMAL  
         
-- **Conditions & Filtering**
+4. **Conditions & Filtering**
     - WHERE clause  
         
     - Logical operators: AND, OR, NOT  
@@ -118,12 +114,12 @@
         
     - Using IN and BETWEEN  
         
-- **Sorting and Grouping Data**
+5. **Sorting and Grouping Data**
     - ORDER BY (ASC/DESC)  
         
     - GROUP BY  
         
-- **Using Constraints**
+6. **Using Constraints**
     - NOT NULL  
         
     - UNIQUE  
