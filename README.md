@@ -87,8 +87,15 @@
     - DELETE  
         
     - SELECT  
-        
-3. **Data Types**
+
+3. **Indexes**
+    - What is an Index?
+  
+    - Why we use Indexes (performance)
+  
+    - Types of Indexes
+  
+4. **Data Types**
     - INT  
         
     - VARCHAR  
@@ -105,7 +112,7 @@
         
     - DECIMAL  
         
-4. **Conditions & Filtering**
+5. **Conditions & Filtering**
     - WHERE clause  
         
     - Logical operators: AND, OR, NOT  
@@ -114,12 +121,12 @@
         
     - Using IN and BETWEEN  
         
-5. **Sorting and Grouping Data**
+6. **Sorting and Grouping Data**
     - ORDER BY (ASC/DESC)  
         
     - GROUP BY  
         
-6. **Using Constraints**
+7. **Using Constraints**
     - NOT NULL  
         
     - UNIQUE  
