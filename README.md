@@ -67,74 +67,87 @@
 ### SQL Basics
 
 1. **Getting Started with SQL**
-    - What is SQL?  
+    
+    - What is SQL?
         
-    - SQL syntax and case sensitivity  
+    - SQL syntax and case sensitivity
         
-    - SQL statement structure (commands end with `;`)  
+    - SQL statement structure (commands end with `;`)
         
 2. **SQL Statements (DDL & DML)**
-    - CREATE TABLE  
+    
+    - CREATE TABLE
         
-    - ALTER TABLE  
+    - ALTER TABLE
         
-    - DROP TABLE  
+    - DROP TABLE
         
-    - INSERT INTO  
+    - INSERT INTO
         
-    - UPDATE  
+    - UPDATE
         
-    - DELETE  
+    - DELETE
         
-    - SELECT  
-
-3. **Indexes**
-    - What is an Index?
-  
-    - Why we use Indexes (performance)
-  
-    - Types of Indexes
-  
-4. **Data Types**
-    - INT  
+    - SELECT
+		
+3. **Data Types**
+    
+    - INT
         
-    - VARCHAR  
+    - CHAR, VARCHAR
         
-    - TEXT  
+    - TEXT
         
-    - DATE  
+    - DATE
         
-    - DATETIME  
+    - DATETIME
         
-    - BOOLEAN  
+    - BOOLEAN
         
-    - FLOAT  
+    - FLOAT
         
-    - DECIMAL  
+    - DECIMAL
+		
+4. **Using Constraints**
+    
+    - NOT NULL
         
-5. **Conditions & Filtering**
-    - WHERE clause  
+    - UNIQUE
         
-    - Logical operators: AND, OR, NOT  
+    - DEFAULT
         
-    - Pattern matching: LIKE & wildcards  
-        
-    - Using IN and BETWEEN  
-        
-6. **Sorting and Grouping Data**
-    - ORDER BY (ASC/DESC)  
-        
-    - GROUP BY  
-        
-7. **Using Constraints**
-    - NOT NULL  
-        
-    - UNIQUE  
-        
-    - DEFAULT  
-        
-    - PRIMARY KEY  
+    - PRIMARY KEY
         
     - FOREIGN KEY
+		
+5. **Indexes**
+	
+	- What is an Index?
+		
+	- Why we use Indexes (performance)
+		
+	- Types of Indexes
+		
+6. **JOINs**
+	
+	- INNER JOIN
+	    
+	- LEFT JOIN / RIGHT JOIN
+		
+7. **Conditions & Filtering**
+    
+    - WHERE clause
+        
+    - Logical operators: AND, OR, NOT
+        
+    - Pattern matching: LIKE & wildcards
+        
+    - Using IN and BETWEEN
+        
+8. **Sorting & Grouping**
+    
+    - ORDER BY (ASC/DESC)
+        
+    - GROUP BY
 
 ---
